@@ -1,0 +1,32 @@
+body {
+    padding: 2%;
+    background-color: darkslategray;
+}
+
+h1 {
+    padding: 15px;
+    max-width: 60%;
+    text-align: center;
+    margin: auto;
+    color: floralwhite;
+    text-shadow: 3px 3px 4px black;
+}
+
+.card {
+    display: inline-block;
+    max-height: 600px;
+    max-width: 250px;
+    margin: 10px;
+    padding: 10px;
+    border: 2px solid black;
+    /* shadow: darkslategray 5px; */
+}
+
+.card:hover{
+    box-shadow: 3px 3px 10px orange;
+}
+
+
+.compactSound__artwork sc-media-left {
+    visibility: hidden;
+}
